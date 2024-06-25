@@ -43,12 +43,12 @@
 
 .homepage-image-wrapper {
 	overflow: hidden;
-	border-radius: 10%;
 	transform: rotate(3deg);
 }
 
 .homepage-image-wrapper img {
 	width: 100%;
+	border-radius: 10%;
 }
 
 .homepage-socials {
@@ -89,7 +89,7 @@
 }
 
 .homepage-works {
-	flex-basis: 600px;
+	width: 100%;
 	padding-top: 30px;
 }
 

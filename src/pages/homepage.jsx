@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faMailBulk, faFile } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faTwitter,
 	faGithub,
 	faStackOverflow,
 	faInstagram,
+	faLinkedin,
+	faAngellist
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -114,13 +116,23 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							<a
+							{/*<a
 								href={INFO.socials.twitter}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
 									icon={faTwitter}
+									className="homepage-social-icon"
+								/>
+							</a>*/}
+							<a
+								href={INFO.socials.linkedin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -134,7 +146,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<a
+							{/*<a
 								href={INFO.socials.stackoverflow}
 								target="_blank"
 								rel="noreferrer"
@@ -143,8 +155,8 @@ const Homepage = () => {
 									icon={faStackOverflow}
 									className="homepage-social-icon"
 								/>
-							</a>
-							<a
+							</a>*/}
+							{/*<a
 								href={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"
@@ -153,7 +165,7 @@ const Homepage = () => {
 									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a>*/}
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
@@ -164,6 +176,26 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
+							<a
+								href={INFO.socials.wellfound}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faAngellist}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.socials.resume}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faFile}
+									className="homepage-social-icon"
+								/>
+							</a>
 						</div>
 
 						<div className="homepage-projects">
@@ -171,7 +203,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-after-title">
-							<div className="homepage-articles">
+							{/*<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
@@ -186,7 +218,7 @@ const Homepage = () => {
 										/>
 									</div>
 								))}
-							</div>
+							</div>*/}
 
 							<div className="homepage-works">
 								<Works />

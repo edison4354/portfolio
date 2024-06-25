@@ -2,10 +2,16 @@
 @import "./data/styles.css";
 
 body {
+	overscroll-behavior: none;
+
 	margin: 0;
 	font-family: var(--primary-font);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 code {

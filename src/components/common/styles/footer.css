@@ -6,6 +6,7 @@
 	margin-top: 50px;
 	padding-bottom: 25px;
 	align-items: center;
+	justify-content: center;
 }
 
 .footer-links,
@@ -39,10 +40,16 @@
 }
 
 .footer-credits-text {
-	justify-content: flex-end;
+	justify-content: center;
 	color: var(--tertiary-color);
 	font-size: 14px;
-	text-align: right;
+	text-align: center;
+}
+
+.footer-credits-link {
+	text-decoration: none;
+	color: inherit; 
+	border-bottom: dotted 1px;
 }
 
 @media (max-width: 600px) {
