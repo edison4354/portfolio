@@ -46,7 +46,13 @@ const About = () => {
 								</div>
 
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+									{
+										INFO.about.description.split('\n').map((line, index) => (
+											<p key={index} style={{ marginBottom: '6px'}}>
+												{line.trim()}
+											</p>
+										)) 
+									}
 								</div>
 							</div>
 

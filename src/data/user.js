@@ -24,9 +24,11 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Edison Li, I live in Sacramento, CA, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+		title: "Designing the Future from Sacramento - I'm Edison Li.",
+		description: `Hi! I am a passionate and motivated software engineer with a strong and diverse background in both property management and full-stack development.
+			My journey into software engineering began with a deep interest in technology and problem-solving, which led me to pursue multiple internships and work experiences to develop my skill set. Throughout various projects, I’ve gained expertise in tools and technologies like React, Node, SQL, Express, and Rails, as well as proficiency in programming languages such as JavaScript, Python, and Ruby.
+			In addition to my tech experience, I’ve also worked as a property manager and Airbnb host, where I developed strong communication and management skills. This role taught me the importance of building relationships and managing diverse responsibilities.
+			Outside of software engineering, I enjoy spending time outdoors, participating in sports, running, and going to the gym. My unique blend of technical skills and diverse experiences equips me with a well-rounded perspective, making me an effective and innovative problem solver. <br>`,
 	},
 
 	articles: {
