@@ -23,8 +23,16 @@
 	align-items: flex-start;
 }
 
+.homepage-name {
+	font-size: 30px;
+	font-weight: 600;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-bottom: 10px;
+	color: #27272a;
+}
+
 .homepage-title {
-	width: 85% !important;
+	width: 90% !important;
 }
 
 .homepage-subtitle {
@@ -144,5 +152,9 @@
 
 	.homepage-works {
 		flex-basis: auto;
+	}
+
+	.homepage-logo-container {
+		padding-top: 30px;
 	}
 }
