@@ -29,7 +29,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2023 Tharindu.dev. Design: <a className="footer-credits-link" href="https://github.com/truethari/reactfolio"> Reactfolio </a>
+						© 2024 EdisonLi.Online - Design: <a className="footer-credits-link" href="https://github.com/truethari/reactfolio"> Reactfolio </a>
 					</div>
 				</div>
 			</div>
