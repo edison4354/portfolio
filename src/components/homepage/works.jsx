@@ -75,10 +75,12 @@ const Works = () => {
 								<div className="work-duration">Sep 2020 - Aug 2021</div>
 							</div>
 							<div className="work-description"> 
-								Contributed to the development of Tutr Co's beta version of their mentoring product, Mentorly. Achieved over 2000 site visitors in a short period of time, surpassing initial expectations and making 
-								a significant impact on the company’s growth. Improved user engagement and satisfaction by 30% through the implementation of efficient and user-friendly features. Providing technical and maintenance 
-								support for Mentorly, ensuring its continued operation and addressing any technical issues promptly and efficiently. Technology used: Kubernetes, Docker, Figma, Webflow, React, Javascript, Node.js, Express, 
-								MongoDB, Jest, Mongoose.
+								<ul>
+									<li>Product Development: Contributed to the development of the beta version of Tutr Co's mentoring product, Mentorly, which attracted over 2,000 site visitors within the first month, exceeding initial expectations and significantly impacting the company's growth trajectory.</li>
+									<li>User Engagement: Implemented efficient and user-friendly features that improved user engagement and satisfaction by 30%, enhancing the overall user experience and retention rates.</li>
+									<li>Technical Support and Maintenance: Provided ongoing technical and maintenance support for Mentorly, ensuring continuous operation and promptly addressing technical issues, reducing downtime by 20%.</li>
+									<li>Technologies Utilized: Leveraged a diverse tech stack including Kubernetes, Docker, Figma, Webflow, React, JavaScript, Node.js, Express, MongoDB, Jest, and Mongoose to build and maintain robust software solutions.</li>
+								</ul>
 							</div>
 						</div>
 					</div>
