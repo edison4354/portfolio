@@ -27,7 +27,9 @@ const Works = () => {
 								<div className="work-duration">March 2024 - June 2024</div>
 							</div>
 							<div className="work-description"> 
-								Rigorous 1000-hour software development bootcamp with &lt;7% acceptance rate
+								<ul>
+									<li>Rigorous 1000-hour software development bootcamp with &lt;7% acceptance rate</li>
+								</ul>
 							</div>
 						</div>
 						<div className="work">
