@@ -1,5 +1,5 @@
 # Edison Li Portfolio
-[Live link!](www.edisonli.online)
+Check out [live site!](https://www.edisonli.online)
 
 # Reactfolio V1.2 👩🏽‍🚀
 
