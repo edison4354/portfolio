@@ -44,11 +44,20 @@ const Works = () => {
 								<div className="work-duration">Jul 2022 - Sep 2022</div>
 							</div>
 							<div className="work-description"> 
-								Developed and deployed web scraping scripts using Python to collect marketing and advertising data from competitors' newsletters, providing valuable insights for the company's marketing strategy. 
-								Additionally, I contributed to the development of the users' referral tracking API, integrating it with Shopify to enable a seamless reward granting process. Collaborating closely with the team's 
-								UI/UX designer, I created wireframes and provided initial frontend development for their new sports newsletter service, which significantly increased the company's daily readership to over 200,000. 
-								During this internship, I gained hands-on experience with technologies such as React, Figma, JavaScript, MongoDB, Express, Material UI, and TypeScript, while building the frontend and backend components 
-								of the newsletter service, honing my skills in full-stack web development and API integration.
+								<ul>
+									<li>
+										Web Scraping and Data Collection: Developed and deployed Python scripts to efficiently scrape and aggregate marketing and advertising data from competitors' newsletters. This initiative provided critical insights that informed and enhanced the company's marketing strategy.
+									</li>
+									<li>
+										API Development and Integration: Contributed to the design and implementation of a user referral tracking API, seamlessly integrating it with Shopify to streamline the reward granting process, thereby improving user engagement and retention.
+									</li>
+									<li>
+										UI/UX Collaboration and Frontend Development: Worked closely with the UI/UX designer to create wireframes and initiate frontend development for a new sports newsletter service. This project significantly boosted the company's daily readership to over 200,000.
+									</li>
+									<li>
+										Full-Stack Development: Gained hands-on experience with React, Figma, JavaScript, MongoDB, Express, Material UI, and TypeScript. Developed both frontend and backend components of the newsletter service, enhancing my skills in full-stack web development and API integration.
+									</li>
+								</ul>
 							</div>
 						</div>
 
