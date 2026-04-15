@@ -3,7 +3,7 @@ const INFO = {
 		title: "Edison Li",
 		name: "Edison Li",
 		email: "edisonli205@gmail.com",
-		logo: "../logo.png",
+		logo: "public/logo.png",
 	},
 
 	socials: {
@@ -14,7 +14,7 @@ const INFO = {
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
 		resume: "Edison-Li-Resume.pdf",
-		wellfound: "https://wellfound.com/u/edison-li-7"
+		wellfound: "https://wellfound.com/u/edison-li-7",
 	},
 
 	homepage: {
@@ -64,7 +64,7 @@ const INFO = {
 			logo: "globe.png",
 			linkText: "View Project",
 			link: "https://github.com/edison4354/SpaceX-Atlas",
-		}
+		},
 
 		// {
 		// 	title: "Project 4",
