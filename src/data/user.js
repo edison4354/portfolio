@@ -3,7 +3,7 @@ const INFO = {
 		title: "Edison Li",
 		name: "Edison Li",
 		email: "edisonli205@gmail.com",
-		logo: "public/logo.png",
+		logo: "logo.png",
 	},
 
 	socials: {

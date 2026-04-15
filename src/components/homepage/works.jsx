@@ -16,7 +16,7 @@ const Works = () => {
 						<div className="work">
 							<div className="work-header">
 								<img
-									src="/public/Appacademylogo.png"
+									src="Appacademylogo.png"
 									alt="App Academy"
 									className="work-image"
 								/>
@@ -38,7 +38,7 @@ const Works = () => {
 						<div className="work">
 							<div className="work-header">
 								<img
-									src="/public/media_mobilize_logo.jpeg"
+									src="media_mobilize_logo.jpeg"
 									alt="Media Mobilize"
 									className="work-image"
 								/>
